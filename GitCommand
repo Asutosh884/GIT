@@ -13,4 +13,15 @@ If needed, anytime you can delete the cache record by:
  $ git config --global --unset credential.helper
  $ git config --system --unset credential.helper
 
+ $ git clone <repo name>
+ $ git status 
+ $ git add . (we can give all or file name, add to staging area)
+ $ git commit -m "Commit Message"
+ $ git push origin master  //Push to remote Repo
 
+ $ git pull //Pull latest from Remote Repo
+ 
+// How to use gitignore
+  create a file name as .gitignore
+  touch .gitignore
+  add the file/dir which is not required to push it to remote
